@@ -29,3 +29,27 @@ body{
    /* Example of using variables */
    background-color: var(--neutral-grayish-blue);
 }
+
+@media screen and (max-width: 600px){
+
+  .navUl a {display: none;}
+  .navUl a.icon {
+    float: right;
+    display: block;
+  }
+
+.navUl.responsive {position: relative;}
+.navUl.responsive a.icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.navUl.responsive a {
+  float: none;
+  display: block;
+  text-align: left;
+}
+}
+.navUl .icon {
+  display: none;
+}
