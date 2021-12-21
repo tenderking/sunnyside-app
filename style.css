@@ -1,8 +1,31 @@
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+:root{
+ 
+  /* Google Fonts */
+  @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
+
+
+  /* Primary Colors */
+    --primary-soft-red:hsl(7, 99%, 70%);
+  --primary-yellow:hsl(51, 100%, 49%);
+  --primary-graphic-design-text: hsl(167, 40%, 24%);
+  --primary-photography-text: hsl(198, 62%, 26%);
+  --primary-footer-text: hsl(168, 34%, 41%);
+
+    /* Nuetral Colors */
+  --neutral-very-dark-blue:hsl(212, 27%, 19%);
+  --neutral-very-dark-gray-blue:hsl(213, 9%, 39%);
+  --neutral-dark-grayish-blue:hsl(232, 10%, 55%);
+  --neutral-grayish-blue:hsl(210, 4%, 67%);
+  --neutral-white:hsl(0, 0%, 100%);
+}
+
+body{
+  font-family: 'Barlow', sans-serif;
+  font-family: 'Fraunces', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  font-size: 18px;
+
+   /* Example of using variables */
+   background-color: var(--neutral-grayish-blue);
 }
