@@ -1,4 +1,4 @@
-import './style.css'
+
 const button = document.querySelector('.icon');
 
 button.addEventListener('click', event => {
