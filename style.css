@@ -65,7 +65,7 @@ h1 {
   text-transform: uppercase;
 }
 header {
-  background: url(/images/mobile/image-header.jpg)
+  background: url("/images/mobile/image-header.jpg")
     no-repeat center / cover;
   /* background-size: 100%; */
 
