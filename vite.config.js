@@ -1,3 +1,4 @@
-import { defineConfig } from 'vite'
+import { defineConfig } from "vite";
 export default defineConfig({
-    base: "/sunnyside-app/",})
+  base: '/sunnyside-app/dist',
+});
