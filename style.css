@@ -38,7 +38,7 @@ body {
 }
 button {
 	border: none;
-	background: 0;
+	background: transparent;
 }
 /* Font Styling */
 h1,
@@ -113,6 +113,11 @@ header nav img {
 button.icon {
 	display: block;
 }
+button:hover {
+	background: var(--primary-400);
+	padding: 0.5em;
+	transition: background 1s;
+}
 
 .responsive {
 	position: absolute;
@@ -128,7 +133,7 @@ button.icon {
 .responsive:before {
 	content: "\25B2";
 	position: absolute;
-	inset: -45px 48px 50px auto;
+	inset: -2.75rem 2.55rem 3.8rem auto;
 	color: var(--neutral-000);
 	transform: skewX(-25.5deg);
 	font-size: 3.5rem;
@@ -160,7 +165,7 @@ main img {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	padding: 2em;
+	padding: 1em;
 	margin: 2em;
 	aspect-ratio: 1;
 	align-items: center;
